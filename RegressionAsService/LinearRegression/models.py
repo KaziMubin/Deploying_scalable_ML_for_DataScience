@@ -15,3 +15,7 @@ class Trainingdata(models.Model):
     "ylabels" : [911,811,711,611,511,411,311,211,111],
     "user" : "Mubin"
 }
+
+{
+    "user" : "Mubin"
+}
