@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    "MLmodel",
+    "LinearRegression",
     "rest_framework",
     "django.contrib.admin",
     "django.contrib.auth",

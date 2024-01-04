@@ -16,9 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-#import RegressionAsService.MLmodel.urls as mlurls
+#import RegressionAsService.LinearRegression.urls as mlurls
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("trainmodel/", include('MLmodel.urls'))
+    path("trainmodel/", include('LinearRegression.urls'))
 ]

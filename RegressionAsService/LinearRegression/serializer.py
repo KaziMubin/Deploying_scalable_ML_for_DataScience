@@ -5,5 +5,5 @@ from .models import Trainingdata
 class TrainerSerializer(serializers.ModelSerializer):
     class Meta:
         model = Trainingdata
-        field = "__all__"
+        fields = '__all__'
 
